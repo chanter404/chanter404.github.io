@@ -1,0 +1,35 @@
+h1 {
+	font-family: Roboto;
+	margin-left: 500px
+}
+
+div {
+	font-family: Roboto;
+	font-size: 20px;
+	margin-left: 50px
+}
+
+.white {
+	color: white
+}
+
+.black {
+	color: black
+}
+
+.red {
+	color: red
+}
+
+.green {
+	color: green
+}
+
+.blue {
+	color: blue
+}
+
+.def_margin_div {
+	margin-left: 0px;
+	margin: 50px
+}
