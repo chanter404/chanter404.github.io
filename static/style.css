@@ -9,6 +9,12 @@ div {
 	margin-left: 50px
 }
 
+a {
+	font-family: Roboto;
+	font-size: 20px;
+	margin-left: 50px
+}
+
 .white {
 	color: white
 }
