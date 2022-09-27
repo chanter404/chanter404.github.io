@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Четко</title>
+		<meta charset="UTF-8">
+		<style>
+			input {
+				width: 510px;
+				height: 120px;
+				font-size: 62px;
+				font-family: helevatica;
+			}
+			
+			div {
+				font-size: 48px;
+				font-family: helevatica;
+			}
+			
+			#know {
+				width: 510px;
+				height: 120px;
+				font-size: 62px;
+				font-family: helevatica;
+			}
+		</style>
+		<script>
+			window.onload = init;
+			
+			var input;
+			var output;
+			
+			function even(number) {
+				if (number % 2 == 0) {
+					return "Четное";
+				} else {
+					return "Не четное";
+				}
+			};
+			
+			function init() {
+				input = document.getElementById("input");
+				output = document.getElementById("output");
+				know = document.getElementById("know");
+				
+				input.value = 0;
+				output.value = "Четное";
+				know.onclick = knowClick;
+			};
+			
+			function knowClick() {
+				if (input.value == "") {
+					input.value = 0;
+				}
+				output.value = even(input.value);
+			};
+		</script>
+	</head>
+	
+	<body>
+		<div>Число</div>
+		<input id="input" type="number">
+		</br>
+		</br>
+		<div>Четное или нет</div>
+		<input id="output" readonly>
+		</br>
+		</br>
+		<button id="know">Узнать</button>
+	</body>
+</html>
