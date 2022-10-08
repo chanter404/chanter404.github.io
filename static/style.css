@@ -45,5 +45,6 @@ a {
 }
 
 #img_middle {
-	margin-left: 500px;
+	position: relative;
+	left: 425px;
 }
