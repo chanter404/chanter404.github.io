@@ -1,0 +1,11 @@
+div, input, button, p {
+	font-size: 48px;
+	font-family: arial;
+}
+
+#version {
+	position: absolute;
+	bottom: 15px;
+	color: #2aa317;
+	text-shadow: #1a7a0b 0 0 30px;
+}
