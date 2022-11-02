@@ -35,6 +35,10 @@ a {
 	color: blue;
 }
 
+.big {
+	font-size: 32px;
+}
+
 .def_margin_div {
 	margin-left: 0px;
 	margin: 50px
