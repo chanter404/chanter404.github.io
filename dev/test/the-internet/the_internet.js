@@ -13,19 +13,19 @@ function init() {
 };
 
 function subbmitBtnOnClick() {
-	if (mainIn.value.toLowerCase() == "hello there") {
-		hello_there();
-	} else if (mainIn.value.toLowerCase() == "выпей чая и не ссы") {
-		vasek();
+	if (mainIn.value.toLowerCase() == "hello world") {
+		hello_world();
+	} else if (mainIn.value.toLowerCase() == "вася") {
+		vasya();
 	};
 };
 
-function vasek() {
+function vasya() {
 	mainIn.value = "";
-	mainOut.textContent = "все";
+	mainOut.textContent = "Типо пупкин";
 };
 
-function hello_there() {
+function hello_world() {
 	mainIn.value = "";
-	mainOut.textContent = "Hi, man!";
+	mainOut.textContent = "Request received";
 };
