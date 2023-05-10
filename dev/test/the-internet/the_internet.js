@@ -24,7 +24,7 @@ function init() {
 	subbmitBtn.onclick = subbmitBtnOnClick;
 };
 
-function setVersion() { versionLbl.textContent = "Version: " + versionLet + ": " + versionNum; };
+function setVersion() { versionLbl.textContent = "Version: " + versionLet + " " + versionNum; };
 
 function setMainOut(text) { mainOut.textContent = text; };
 
