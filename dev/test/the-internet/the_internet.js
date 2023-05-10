@@ -16,7 +16,7 @@ function init() {
 	mainOut = document.getElementById("mainOut");
 	versionLbl = document.getElementById("version");
 	
-	versionNum = "0.0.2";
+	versionNum = "0.0.3";
 	versionLet = "Alpha";
 	
 	setVersion();
@@ -35,6 +35,8 @@ function subbmitBtnOnClick() {
 		hello_world();
 	} else if (lowerMainIn == "вася") {
 		vasya();
+	} else if (lowerMainIn == "я помню") {
+		forget();
 	};
 	
 	mainIn.value = "";
@@ -42,3 +44,4 @@ function subbmitBtnOnClick() {
 
 function vasya() { setMainOut("Типо пупкин"); };
 function hello_world() { setMainOut("Request received"); };
+function forget() { setMainOut("а нет уже забыл"); };
