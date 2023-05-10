@@ -3,29 +3,42 @@ window.onload = init;
 var mainIn;
 var subbmitBtn;
 var mainOut;
+var versionLbl;
+
+var lowerMainIn;
+
+var versionNum;
+var versionLet;
 
 function init() {
 	mainIn = document.getElementById("mainIn");
 	subbmitBtn = document.getElementById("subbmitBtn");
 	mainOut = document.getElementById("mainOut");
+	versionLbl = document.getElementById("version");
+	
+	versionNum = "0.0.2";
+	versionLet = "Alpha";
+	
+	setVersion();
 	
 	subbmitBtn.onclick = subbmitBtnOnClick;
 };
 
+function setVersion() { versionLbl.textContent = "Version: " + versionLet + ": " + versionNum; };
+
+function setMainOut(text) { mainOut.textContent = text; };
+
 function subbmitBtnOnClick() {
-	if (mainIn.value.toLowerCase() == "hello world") {
+	lowerMainIn = mainIn.value.toLowerCase();
+	
+	if (lowerMainIn == "hello world") {
 		hello_world();
-	} else if (mainIn.value.toLowerCase() == "вася") {
+	} else if (lowerMainIn == "вася") {
 		vasya();
 	};
+	
+	mainIn.value = "";
 };
 
-function vasya() {
-	mainIn.value = "";
-	mainOut.textContent = "Типо пупкин";
-};
-
-function hello_world() {
-	mainIn.value = "";
-	mainOut.textContent = "Request received";
-};
+function vasya() { setMainOut("Типо пупкин"); };
+function hello_world() { setMainOut("Request received"); };
