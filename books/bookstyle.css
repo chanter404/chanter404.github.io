@@ -1,0 +1,43 @@
+@font-face {
+	font-family: Fallback-Font;
+	src: url(fonts/fallback.ttf);
+}
+
+@font-face {
+	font-family: Lora-Regular;
+	src: url(fonts/lora/lora-regular.ttf);
+}
+
+@font-face {
+	font-family: Lora-Italic;
+	src: url(fonts/lora/lora-italic.ttf);
+}
+
+@font-face {
+	font-family: Lora-SemiBold;
+	src: url(fonts/lora/lora-semibold.ttf);
+}
+
+@font-face {
+	font-family: Lora-SemiBold-Italic;
+	src: url(fonts/lora/lora-semibold-italic.ttf);
+}
+
+.text {
+	text-align: center;
+	color: white;
+}
+
+body {
+	background-color: #383838;
+}
+
+h1 {
+	font-family: Lora-Italic;
+	font-size: 42px;
+}
+
+p {
+	font-family: Lora-Regular;
+	font-size: 20px;
+}
