@@ -19,6 +19,8 @@ https://files.minecraft-inside.ru/uploads/files/2017-09/WailaHarvestability_mc1.
 https://files.minecraft-inside.ru/uploads/files/2020-02/forestry_1.12.2_5.8.2.414.jar
 https://files.minecraft-inside.ru/uploads/files/2020-02/appliedenergistics2_rv6_stable_7.jar
 https://minecraft-inside.ru/uploads/files/2020-10/DivineRPG_1.12.2_1.7.1.jar
-https://mediafilez.forgecdn.net/files/3003/364/ItemFilters-1.0.4.2.jar
-https://mediafilez.forgecdn.net/files/2891/572/FTBLib-5.4.7.0.jar
-https://mediafilez.forgecdn.net/files/2961/486/FTBQuests-1.8.1.239.jar
+https://files.minecraft-inside.ru/uploads/files/2020-03/PamsHarvestCraft1.12.2zg.jar
+https://mediafilez.forgecdn.net/files/2997/188/Pam%27s+BrewCraft+1.12.2-1.0.2.jar
+https://files.minecraft-inside.ru/uploads/files/2019-07/XL_Food_Mod_1.12.2_1.9.2.jar
+https://minecraft-inside.ru/uploads/files/2023-03/JustEnoughResources-1.12.2-0.9.3.203.jar
+https://files.minecraft-inside.ru/uploads/files/2019-05/ThaumicJEI_1.12.2_1.6.0_27.jar
