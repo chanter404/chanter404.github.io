@@ -8,6 +8,12 @@ div {
 	margin-left: 15%;
 }
 
+p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 120%;
+	margin-left: 15%;
+}
+
 a {
 	text-decoration: none;
 	color: blue;
