@@ -3,7 +3,7 @@ h1 {
 }
 
 div {
-	font-family: Tahoma;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 120%;
 	margin-left: 15%;
 }
@@ -11,7 +11,7 @@ div {
 a {
 	text-decoration: none;
 	color: blue;
-	font-family: Tahoma;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 120%;
 	margin-left: 15%;
 }
