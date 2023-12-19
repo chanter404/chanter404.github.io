@@ -4,22 +4,25 @@ h1 {
 
 div {
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 120%;
+	font-size: 127%;
 	margin-left: 15%;
+	margin-right: 7%;
 }
 
 p {
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 120%;
+	font-size: 127%;
 	margin-left: 15%;
+	margin-right: 7%;
 }
 
 a {
 	text-decoration: none;
 	color: blue;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 120%;
+	font-size: 127%;
 	margin-left: 15%;
+	margin-right: 7%;
 }
 
 .white {
